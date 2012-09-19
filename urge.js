@@ -34,7 +34,7 @@
 
             context.clearRect(0, 0, this.el.width, this.el.height);
 
-            this.model.each(function(entity) {
+            this.collection.each(function(entity) {
                 var x = entity.get('position.x'),
                     y = entity.get('position.y'),
                     width = entity.get('width'),
